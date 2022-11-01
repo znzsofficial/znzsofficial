@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=znzsoficial&show_icons=true&icon_color=0078e7&title_color=0078e7"> 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=znzsofficial)](https://github.com/anuraghazra/github-readme-stats)
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=znzsofficial&layout=compact"> 
 <!---
 znzsofficial/znzsofficial is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
