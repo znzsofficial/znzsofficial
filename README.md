@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @znzsofficial
 - 👀 I’m interested in Android developing
-- 🌱 I’m currently learning Kotlin, Java , C , TypeScript and Lua
+- 🌱 I’m currently learning Kotlin, Java ,C , TypeScript and Lua
 
 ## Kotlin Best Language
 
