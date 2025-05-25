@@ -32,6 +32,12 @@ A tech enthusiast passionate about **Android Development** and super excited abo
   <a href="https://www.jetbrains.com/compose-multiplatform/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Compose%20Multiplatform-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose Multiplatform">
   </a>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  </a>
+  <a href="https://www.lua.org/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua">
+  </a>
 </p>
 
 <!-- Currently Learning / Exploring -->
@@ -41,9 +47,6 @@ A tech enthusiast passionate about **Android Development** and super excited abo
   </a>
   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  </a>
-  <a href="https://www.lua.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua">
   </a>
 </p>
 
