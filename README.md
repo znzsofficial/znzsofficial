@@ -57,7 +57,7 @@ A tech enthusiast passionate about **Android Development** and super excited abo
 <!-- You can try different themes: dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula -->
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=znzsofficial&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=znzsofficial&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=znzsofficial&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages">
 
 ---
 
