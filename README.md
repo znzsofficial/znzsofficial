@@ -61,14 +61,6 @@ A tech enthusiast passionate about **Android Development** and super excited abo
 
 ---
 
-### 🐱 NekoLaska on Kotlin & Compose
-
-> "Kotlin is the best language!"
-
-**Kotlin, especially with the power of Compose Multiplatform, empowers me with the joy and efficiency to create amazing UIs and applications across platforms!** 🚀
-
----
-
 ### 📬 Connect with Me
 
 <p align="left">
