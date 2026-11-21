@@ -9,6 +9,7 @@ on:
     paths:
       - '.github/workflows/profile-art.yml'
       - '.github/assets/skyline.json'
+      - '.github/scripts/repo_snapshot.py'
 
 permissions:
   contents: write
@@ -43,10 +44,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Collect all four SVGs
+      - name: Draw public repository snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh api --paginate --slurp "users/${GITHUB_REPOSITORY_OWNER}/repos?type=owner&per_page=100" |
+            python3 .github/scripts/repo_snapshot.py dist
+
+      - name: Collect profile images
         run: |
           cp profile-3d-contrib/city-{light,dark}.svg dist/
-          for image in dist/{city,snake}-{light,dark}.svg; do test -s "$image" || exit 1; done
+          for image in dist/{city,snake,repos}-{light,dark}.svg; do test -s "$image" || exit 1; done
 
       - name: Publish images to output
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
