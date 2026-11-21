@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="166" viewBox="0 0 440 166" role="img" aria-labelledby="title desc">
+<title id="title">19 public repositories · 98 stars</title>
+<desc id="desc">Top primary languages by number of public non-fork repositories: Kotlin: 7, Java: 3, TypeScript: 3, Lua: 2.</desc>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#1f2328">
+<text x="0" y="24" font-size="21" font-weight="600">19 public repositories · 98 stars</text>
+<text x="0" y="48" fill="#59636e" font-size="14">Top languages by repository count · forks excluded</text>
+<text x="0" y="74" font-size="16">Kotlin</text>
+<rect x="141" y="66" width="245" height="6" rx="3" fill="#eaeef2"/>
+<rect x="141" y="66" width="245.00" height="6" rx="3" fill="#7952d2"/>
+<text x="434" y="74" text-anchor="end" font-size="16" fill="#59636e">7</text>
+<text x="0" y="99" font-size="16">Java</text>
+<rect x="141" y="91" width="245" height="6" rx="3" fill="#eaeef2"/>
+<rect x="141" y="91" width="105.00" height="6" rx="3" fill="#7952d2"/>
+<text x="434" y="99" text-anchor="end" font-size="16" fill="#59636e">3</text>
+<text x="0" y="124" font-size="16">TypeScript</text>
+<rect x="141" y="116" width="245" height="6" rx="3" fill="#eaeef2"/>
+<rect x="141" y="116" width="105.00" height="6" rx="3" fill="#7952d2"/>
+<text x="434" y="124" text-anchor="end" font-size="16" fill="#59636e">3</text>
+<text x="0" y="149" font-size="16">Lua</text>
+<rect x="141" y="141" width="245" height="6" rx="3" fill="#eaeef2"/>
+<rect x="141" y="141" width="70.00" height="6" rx="3" fill="#7952d2"/>
+<text x="434" y="149" text-anchor="end" font-size="16" fill="#59636e">2</text>
+</g></svg>
