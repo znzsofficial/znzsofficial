@@ -30,6 +30,24 @@ Building cross-platform UIs with **Kotlin**.
 
 ---
 
+### Contribution skyline
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/znzsofficial/znzsofficial/output/city-dark.svg">
+    <img width="800" alt="A 3D skyline of my GitHub contributions, colored by season" src="https://raw.githubusercontent.com/znzsofficial/znzsofficial/output/city-light.svg">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/znzsofficial/znzsofficial/output/snake-dark.svg">
+    <img width="800" alt="A purple snake eating the squares on my contribution calendar" src="https://raw.githubusercontent.com/znzsofficial/znzsofficial/output/snake-light.svg">
+  </picture>
+</p>
+
+---
+
 ### GitHub Stats
 
 <div align="center">

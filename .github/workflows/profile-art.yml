@@ -1,0 +1,57 @@
+name: Profile art
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-art.yml'
+      - '.github/assets/skyline.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Draw seasonal skyline
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/assets/skyline.json
+
+      - name: Animate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#5938b7&color_dots=#eff1f5,#e0d4ff,#bc9dff,#976deb,#7047c8
+            dist/snake-dark.svg?color_snake=#eadcff&color_dots=#21262d,#513780,#7750b3,#a579ed,#d0b6ff
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Collect all four SVGs
+        run: |
+          cp profile-3d-contrib/city-{light,dark}.svg dist/
+          for image in dist/{city,snake}-{light,dark}.svg; do test -s "$image" || exit 1; done
+
+      - name: Publish images to output
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
+          keep_files: true
